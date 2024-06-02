@@ -315,7 +315,7 @@ we are now at a stage where we have a query vector for each token in our prompt,
 <br><br>
 query: "the answer to the ultimate question of life, the universe, and everything is "
 <br><br>
-in our prompt we have used "the" three times, we need the query vectors of all 3 "the" tokens to have different query vectors (each of size [1x128]) based on their positions in the query. we perform these rotations using RoPE (rotory positional embedding).
+in our prompt we have used "the" three times, we need the query vectors of all 3 "the" tokens to have different query vectors (each of size [1x128]) based on their positions in the query. we perform these rotations using RoPE (rotary positional embedding).
 <br><br>
 ### RoPE
 watch this video (this is what i watched) to understand the math.
